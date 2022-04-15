@@ -1,0 +1,131 @@
+.App {
+  display:flex;  
+  flex-direction: column;
+}
+.Navbar-conteiner{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  align-items: center;
+  width:100vw;
+}
+
+ul{
+  list-style-type: none;
+  display:flex;
+  flex-direction: row;
+  padding:0;
+}
+li{
+  padding-left: 1rem;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(87, 185, 185);
+}
+a:hover{
+  text-decoration:underline;
+}
+.conteiner{
+  display:flex;
+  text-align: center;
+  flex-direction:row;
+  margin-top: 3rem;
+  margin-bottom:3rem;
+
+}
+.Rightbar{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height:100%;
+  font-size: 1.3rem;
+}
+.Dashboard{
+  display:flex;
+  flex-direction:column;
+  text-align: center;
+  width: 100vw;
+  font-size: 1.5rem;
+  
+}
+.form{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+ 
+}
+form input{
+  width: 50vw;
+  height:40px;
+  margin: 5px;
+  border:none;
+  font-family: monospace;
+  font-size:1rem;
+  font-weight: 800;
+  border-bottom: 1px solid #cece;
+}
+
+form button{
+  font-size: 1rem;
+  font-weight: 700;
+  color:white;
+  border:1px solid #cece;
+  background: rgb(77, 166, 189);
+  margin-top: 1.5rem;
+  width:25vw;
+  padding:20px;
+  border-radius:16px;
+}
+ .key{
+   display:flex;
+   flex-direction:column;
+   justify-content:center;
+   width: 33%;
+   
+ }
+
+ .logoArea{
+   display:flex;
+   justify-content: center;
+   align-self:center;
+   width: 33%;
+ }
+ @media (max-width:375px){
+   .logoArea img{
+     width:20vw;
+   }
+   .Rightbar {
+     display:none;
+   }
+   .user{
+     font-size: .5rem;
+   }
+   .key{
+     width: 100%;
+   }
+   .btnArea button {
+     width:8rem !important;
+     font-size: 1rem !important;
+   }
+ }
+ .Connect{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   border:1px solid red;
+ }
+ .btnArea{
+   width: 100%;
+   margin-top: 3rem;
+ }
+ .user{
+   font-family: monospace;
+ }
+
+
+
